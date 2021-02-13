@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src *; script-src 'self'">
+    <link rel="stylesheet" href="../public/components/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/formato.css">
+    <title>Fuente Capítulo del libro</title>
+</head>
+
+<body>
+    <!--Header-->
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../public/img/copiar.svg" alt="Logo" width="30" height="24" class="d-inline-block align-top">
+                Formato Apa
+            </a>
+        </div>
+    </nav>
+    <!---Header-->
+
+    <!--Contenido-->
+    <div class="container">
+        <div class="mTop20"></div>
+        <h1 class="text-center">Fuente Capítulo del libro</h1>
+        <div class="grid-item">
+            <form name="" method="post">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Autor(es): </span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Año de publicación: </span>
+                    <input type="number" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value2">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Titulo Del Capítulo: </span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value3">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Nombre del Libro: </span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value4">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Páginas: </span>
+                    <input type="number" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value5">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Lugar de publicación del libro: </span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value6">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Editorial: </span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm" id="value7">
+                </div>
+                <button type="button" class="btn btn-success" id="button_Generator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-card-heading" viewBox="0 0 16 16">
+                        <path
+                            d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                        <path
+                            d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z" />
+                    </svg>
+                    Generar</button>
+                <div class="m20"></div>
+            </form>
+            <!---Resultado-->
+            <div id="Menj_random">
+                <p id="parrafo"></p>
+            </div>
+        </div>
+    </div>
+    <!--Contenido-->
+    <script src="../public/components/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/js/apaCapLibro.js"></script>
+</body>
+
+</html>

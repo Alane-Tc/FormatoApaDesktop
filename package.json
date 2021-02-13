@@ -1,0 +1,20 @@
+{
+  "name": "formatopa",
+  "version": "1.0.0",
+  "description": "Formato Apa Escritorio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Formato",
+    "Apa",
+    "Apa",
+    "Escritorio"
+  ],
+  "author": "Alane",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}

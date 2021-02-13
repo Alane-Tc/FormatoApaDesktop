@@ -1,0 +1,30 @@
+body{
+    background: #f5f3f4;
+}
+
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ .m20{
+    margin-bottom: 20px;
+}
+
+.mTop20{
+    margin-top: 20px;
+}
+
+#Menj_random{
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#parrafo{
+    font-size: 20px;
+    margin-top: 15px;
+}

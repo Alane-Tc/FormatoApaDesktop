@@ -1,0 +1,34 @@
+body{
+    background: #f5f3f4;
+}
+
+.m20{
+    margin-bottom: 20px;
+}
+
+.mTop20{
+    margin-top: 20px;
+}
+
+.col{
+    padding: 30px;
+    background: #ff9f1c;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px #212529; 
+}
+
+.span-title{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.span-title:hover{
+    text-decoration: underline;
+    color: white;
+}
