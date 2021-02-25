@@ -2,6 +2,7 @@ const { app, BrowserWindow } = require('electron');
 
 function crearVentanaPrincipal() {
     let ventanaPrincipal = new BrowserWindow({
+        minWidth: 1200, maxHeight: 1400,
         show: false,
         icon: __dirname + `./src/public/img/logo.icns`,
         icon: __dirname + `./src/public/img/logo.ico`,
